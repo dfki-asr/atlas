@@ -10,3 +10,7 @@
 	path = collada-jaxb
 	url = https://github.com/dfki-asr/collada-jaxb.git
 	branch = master
+[submodule "atlas-worker"]
+	path = atlas-worker
+	url = https://github.com/dfki-asr/atlas-worker.git
+	branch = master
