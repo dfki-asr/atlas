@@ -1,0 +1,4 @@
+[submodule "collada-jaxb"]
+	path = collada-jaxb
+	url = https://github.com/dfki-asr/collada-jaxb.git
+	branch = master
