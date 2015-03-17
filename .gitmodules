@@ -1,0 +1,16 @@
+[submodule "atlas-server"]
+	path = atlas-server
+	url = https://github.com/dfki-asr/atlas-server.git
+	branch = master
+[submodule "xml3d-jaxb"]
+	path = xml3d-jaxb
+	url = https://github.com/dfki-asr/xml3d-jaxb.git
+	branch = master
+[submodule "collada-jaxb"]
+	path = collada-jaxb
+	url = https://github.com/dfki-asr/collada-jaxb.git
+	branch = master
+[submodule "atlas-worker"]
+	path = atlas-worker
+	url = https://github.com/dfki-asr/atlas-worker.git
+	branch = master

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.dfki.asr</groupId>
+	<artifactId>atlas</artifactId>
+	<version>1.0</version>
+	<packaging>pom</packaging>
+
+	<name>ATLAS - Advanced Threedimensional Large-scale Asset Server</name>
+
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<comments>
+				The Apache License applies to the files in this distribution,
+				that is, this pom.xml.
+			</comments>
+		</license>
+	</licenses>
+
+	<modules>
+		<module>xml3d-jaxb</module>
+		<module>collada-jaxb</module>
+		<module>atlas-server</module>
+	</modules>
+</project>
