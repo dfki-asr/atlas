@@ -8,6 +8,17 @@
 
 	<name>ATLAS - Advanced Threedimensional Large-scale Asset Server</name>
 
+	<licenses>
+		<license>
+			<name>Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0</url>
+			<comments>
+				The Apache License applies to the files in this distribution,
+				that is, this pom.xml.
+			</comments>
+		</license>
+	</licenses>
+
 	<modules>
 		<module>xml3d-jaxb</module>
 		<module>collada-jaxb</module>
