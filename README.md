@@ -13,13 +13,13 @@ Repository structure
 --------------------
 
 This repository binds together the components required to build and run ATLAS, as a sort of "convenience" repository.
-It's intended to be kept in a state where cloning ad building from it will give you the most recent, stable, ATLAS.
+It's intended to be kept in a state where cloning and building from it will give you the most recent, stable, ATLAS.
 
 
 Building
 --------
 
-You sould just be able to say
+You should just be able to say
 
     mvn install 
 
