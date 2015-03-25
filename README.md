@@ -1,5 +1,5 @@
-ATLAS (webapp)
-==============
+ATLAS
+=====
 
 ATLAS (which stands for "Advanced Three-dimensional Large-scale Asset Server") is a system for
 storage and conversion of polygonal 3D models. It offers a REST interface to add and retrieve
@@ -25,13 +25,13 @@ You should just be able to say
 
 from this directory (with `README` and `pom.xml`), and an `atlas-[version].war` should be built in the `atlas-server` submodule.
 
-You also need to build the import worker, see the [worker README](atlas-worker/README.md) for details.
+You also need to build the import worker, see the [worker README](https://github.com/dfki-asr/atlas-worker/blob/master/README.md) for details.
 
 
 Running
 -------
 
-See the [server README](atlas-server/README.md) and [worker README](atlas-worker/README.md) for details.
+See the [server README](https://github.com/dfki-asr/atlas-server/blob/master/README.md) and [worker README](https://github.com/dfki-asr/atlas-worker/blob/master/README.md) for details.
 
 
 Contributing
