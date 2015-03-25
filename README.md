@@ -1,5 +1,5 @@
-ATLAS (webapp)
-==============
+ATLAS
+=====
 
 ATLAS (which stands for "Advanced Three-dimensional Large-scale Asset Server") is a system for
 storage and conversion of polygonal 3D models. It offers a REST interface to add and retrieve
