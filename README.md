@@ -30,7 +30,9 @@ in the cloned repositories directory.
 Building
 --------
 
-You should just be able to say
+You need a JDK (Java 7 or newer, tested with Oracle JDK) and Maven (version 3 upwards) to build the Java part.
+Getting those installed for your operating system is left as an exercise to the reader.
+Once these build prerequisites are in place, you should just be able to say
 
     mvn install 
 
