@@ -1,7 +1,7 @@
 [submodule "atlas-server"]
 	path = atlas-server
 	url = ../atlas-server.git
-	branch = master
+	branch = feature/transform-transport
 [submodule "xml3d-jaxb"]
 	path = xml3d-jaxb
 	url = ../xml3d-jaxb.git
