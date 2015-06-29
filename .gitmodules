@@ -13,4 +13,4 @@
 [submodule "atlas-worker"]
 	path = atlas-worker
 	url = ../atlas-worker.git
-	branch = master
+	branch = feature/mesh-split-flag
