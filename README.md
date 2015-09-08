@@ -15,11 +15,24 @@ Repository structure
 This repository binds together the components required to build and run ATLAS, as a sort of "convenience" repository.
 It's intended to be kept in a state where cloning and building from it will give you the most recent, stable, ATLAS.
 
+However, this means you will need to use
+
+    git clone --recursive
+
+when cloning this repository, since it references the other atlas repositories as submodules.
+If you've already cloned this repository without the `--recursive` flag, you need to manually download and setup the submodules by running
+
+    git submodule update --init --recursive
+
+in the cloned repositories directory.
+
 
 Building
 --------
 
-You should just be able to say
+You need a JDK (Java 7 or newer, tested with Oracle JDK) and Maven (version 3 upwards) to build the Java part.
+Getting those installed for your operating system is left as an exercise to the reader.
+Once these build prerequisites are in place, you should just be able to say
 
     mvn install 
 
